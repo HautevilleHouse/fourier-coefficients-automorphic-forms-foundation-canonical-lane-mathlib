@@ -1,0 +1,9 @@
+import fourier_coefficients_automorphic_forms_foundation_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace fourier_coefficients_automorphic_forms_foundation_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end fourier_coefficients_automorphic_forms_foundation_canonical_lane_mathlib
+end HautevilleHouse
